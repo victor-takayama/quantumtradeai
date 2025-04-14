@@ -12,8 +12,8 @@ const Rodape = () => {
           <a href="#formulario" className="hover:underline text-gray-300">Início</a>
           <a href="#monetizacao" className="hover:underline text-gray-300">Monetização</a>
           <a href="#comunidade" className="hover:underline text-gray-300">Comunidade</a>
-          <a href="#" className="hover:underline text-gray-300">Termos de Uso</a>
-          <a href="#" className="hover:underline text-gray-300">Política de Privacidade</a>
+          <Link to="/termos" className="hover:underline text-gray-300">Termos de Uso</Link>
+          <Link to="/privacidade" className="hover:underline text-gray-300">Política de Privacidade</Link>
         </div>
       </div>
     </footer>
