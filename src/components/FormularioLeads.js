@@ -7,7 +7,7 @@ const FormularioLeads = () => {
         <h2 className="text-3xl font-bold mb-4 text-gray-900">Garanta seu acesso antecipado</h2>
         <p className="mb-8 text-gray-700">Cadastre-se para ser um dos primeiros a testar o QuantumTrade AI e receba novidades exclusivas.</p>
         <form
-          action="https://formspree.io/f/your-form-id"
+          action="https://formspree.io/f/mqapjpdz"
           method="POST"
           className="space-y-4"
         >
