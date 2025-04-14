@@ -11,7 +11,7 @@ import Rodape from './components/Rodape';
 import TermosDeUso from './components/TermosDeUso';
 import PoliticaPrivacidade from './components/PoliticaPrivacidade';
 
-function Home() {
+const Home = () => {
   return (
     <>
       <HeroSection />
@@ -23,7 +23,7 @@ function Home() {
       <Rodape />
     </>
   );
-}
+};
 
 function App() {
   return (
