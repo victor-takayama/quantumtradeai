@@ -1,20 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Rodape = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-        <div className="mb-4 md:mb-0">
-          <h4 className="text-xl font-semibold">QuantumTrade AI</h4>
-          <p className="text-sm text-gray-400">© {new Date().getFullYear()} Todos os direitos reservados.</p>
-        </div>
-        <div className="space-x-6 text-sm">
-          <a href="#formulario" className="hover:underline text-gray-300">Início</a>
-          <a href="#monetizacao" className="hover:underline text-gray-300">Monetização</a>
-          <a href="#comunidade" className="hover:underline text-gray-300">Comunidade</a>
-          <Link to="/termos" className="hover:underline text-gray-300">Termos de Uso</Link>
-          <Link to="/privacidade" className="hover:underline text-gray-300">Política de Privacidade</Link>
-        </div>
+    <footer className="bg-gray-900 text-white py-8 text-center">
+      <p className="mb-2 font-semibold">QuantumTrade AI</p>
+      <p className="text-sm text-gray-400">© 2025 Todos os direitos reservados.</p>
+      <div className="flex justify-center space-x-6 mt-4 text-sm">
+        <Link to="/" className="hover:underline text-gray-300">Início</Link>
+        <Link to="/monetizacao" className="hover:underline text-gray-300">Monetização</Link>
+        <Link to="/comunidade" className="hover:underline text-gray-300">Comunidade</Link>
+        <Link to="/termos" className="hover:underline text-gray-300">Termos de Uso</Link>
+        <Link to="/privacidade" className="hover:underline text-gray-300">Política de Privacidade</Link>
       </div>
     </footer>
   );
