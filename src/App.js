@@ -1,3 +1,4 @@
+import React from 'react';
 import HeroSection from './components/HeroSection';
 import FormularioLeads from './components/FormularioLeads';
 import ComoFunciona from './components/ComoFunciona';
@@ -11,3 +12,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
