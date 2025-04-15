@@ -1,2 +1,3 @@
-# QuantumTradeAI
-Landing page inicial criada com React e Tailwind CSS.
+# Genesis Local
+
+Landing page oficial do Genesis Local – conteúdo com IA para negócios locais.
