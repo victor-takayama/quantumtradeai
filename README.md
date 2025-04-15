@@ -1,3 +1,2 @@
-# Genesis Local
-
-Landing page para a ferramenta de conteúdo com IA.
+# Genesis Local Landing Page
+Landing page criada com Next.js e Tailwind CSS.
